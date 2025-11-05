@@ -33,3 +33,9 @@ Visual Studio Code Installation
 - VSCode är nu installerat.
 
 
+GIT installation
+- sudo apt install git
+- Git --version
+- Git config --global user.name "Ditt namn"
+- Git config --global user.email "Din Email"
+- Git är nu installerat.
