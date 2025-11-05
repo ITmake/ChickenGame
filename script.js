@@ -78,3 +78,7 @@ function stanna(playerIdx) {
       el.classList.toggle('winner', state.finished && state.totals[i] >= (parseInt(targetInput.value) || 100));
     }
   }
+
+  function getPlayerName(i) {
+    return `Spelare ${i + 1}`;
+  }
