@@ -68,3 +68,13 @@ function stanna(playerIdx) {
     };
     render();
   }
+
+  function render() {
+    for (let i = 0; i < 2; i++) {
+      document.getElementById(`total-${i}`).textContent = state.totals[i];
+      document.getElementById(`round-${i}`).textContent = state.rounds[i];
+      const el = document.getElementById(`player-${i}`);
+      el.classList.toggle('active', state.active === i && !state.finished);
+      el.classList.toggle('winner', state.finished && state.totals[i] >= (parseInt(targetInput.value) || 100));
+    }
+  }
