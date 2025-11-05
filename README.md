@@ -63,3 +63,15 @@ Koder till filerna
 - JavaScript är det skriptet som bygger up och lägger till funktioner (Menyer eller annat)
 - JSON är det skriptet som bygger up och lagrar/överför data (Server och Webbsida)
 
+Vad Koden gör i varje fil
+
+HTML
+    -
+CSS
+    -
+JavaScript
+    -
+JSON
+    -
+Backend
+    -
