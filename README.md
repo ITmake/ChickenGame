@@ -65,13 +65,12 @@ Koder till filerna
 
 Vad Koden gör i varje fil
 
-HTML
-- Bygger up strukturen till webbsidan med HTML så den gör grunderna till t.ex knapparna etc
-CSS
-- Bygger up utseende för webbsidan med CSS så den ändrar och styr t.ex färger, fontter osv till webbsidan
-JavaScript
-- Bygger up själva funktionerna och strukturer till webbsidan t.ex menyer eller spalttar till info för webbsidan
-JSON
-- Bygger up highscore system som sparar datan av highscorena och skickar datan och infon till servern alltid när man spelar
- Backend
-- Bygger en backend för servern så man slipper in och ändra på saker
+- HTML: Bygger up strukturen till webbsidan med HTML så den gör grunderna till t.ex knapparna etc
+
+- CSS: Bygger up utseende för webbsidan med CSS så den ändrar och styr t.ex färger, fontter osv till webbsidan
+
+- JavaScript: Bygger up själva funktionerna och strukturer till webbsidan t.ex menyer eller spalttar till info för webbsidan
+
+- JSON: Bygger up highscore system som sparar datan av highscorena och skickar datan och infon till servern alltid när man spelar
+
+- Backend: Bygger en backend för servern så man slipper in och ändra på saker
