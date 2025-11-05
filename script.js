@@ -96,3 +96,16 @@ function stanna(playerIdx) {
     const data = JSON.parse(localStorage.getItem('chickengameHighscores')) || [];
     renderHighscores(data);
   }
+
+  function renderHighscores(list) {
+    highscoreList.innerHTML = '';
+    if (!Array.isArray(list) || list.length === 0) {
+      highscoreList.innerHTML = '<li>Ingen data</li>';
+      return;
+    }
+    list.forEach(item => {
+      const li = document.createElement('li');
+      li.textContent = `${item.name} — ${item.wins} vinster`;
+      highscoreList.appendChild(li);
+    });
+  }
