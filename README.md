@@ -39,3 +39,20 @@ GIT installation
 - Git config --global user.name "Ditt namn"
 - Git config --global user.email "Din Email"
 - Git är nu installerat.
+
+Visual Studio Code Filer
+- File -> open folder
+- Välj mappen "Chickengame"
+- Skapa följande filer:
+    - Index.html
+    - Style.css
+    - Script.js
+    - Highscores.json
+    - Backend/app.py
+
+- Innehållet och koderna är nu
+    - HTML -> Index.html
+    - CSS -> Style.css
+    - JavaScript -> Script.js
+    - JSON -> Highscore.json
+    - Backend -> Backend/app.py
