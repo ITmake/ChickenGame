@@ -5,7 +5,7 @@ let state = {
     finished: false
   };
 
-  document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
   const targetInput = document.getElementById('target');
   const highscoreList = document.getElementById('highscore-list');
 
@@ -23,7 +23,7 @@ let state = {
   init();
 });
 
- function kasta(playerIdx) {
+  function kasta(playerIdx) {
     if (state.finished || state.active !== playerIdx) return;
 
     const kast = Math.floor(Math.random() * 6) + 1;
@@ -38,7 +38,7 @@ let state = {
     render();
   }
 
-function stanna(playerIdx) {
+  function stanna(playerIdx) {
     if (state.finished || state.active !== playerIdx) return;
 
     state.totals[playerIdx] += state.rounds[playerIdx];
@@ -49,6 +49,7 @@ function stanna(playerIdx) {
       state.finished = true;
       announceWinner(playerIdx, `🎉 ${getPlayerName(playerIdx)} har vunnit!`);
     } else {
+      // 🔹 Här är ändringen: växla automatiskt när man stannar
       växlaSpelare();
     }
 
